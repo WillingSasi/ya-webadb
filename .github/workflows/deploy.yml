@@ -35,6 +35,6 @@ jobs:
         uses: s0/git-publish-subdir-action@develop
         env:
           REPO: self
-          BRANCH: gh-pages
+          BRANCH: main
           FOLDER: apps/demo/out
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: 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
